@@ -29,6 +29,6 @@ public class LinearSearch {
         String menu[] = {"Dosa", "Sambhar", " fafda", "Gulab jamun"};
         String keyS = "Sambhar";
 
-        System.out.println(" String array key found at index : " + LinearSearchString(menu, keyS));
+        System.out.println("String array key found at index : " + LinearSearchString(menu, keyS));
     }
 }
