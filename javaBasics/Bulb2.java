@@ -1,5 +1,4 @@
 
-
 public class Bulb2 {
     private int wattage;
     public void setWattge(int wattage){
