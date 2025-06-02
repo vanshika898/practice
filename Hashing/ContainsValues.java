@@ -1,8 +1,5 @@
 
 import java.util.HashMap;
-
-
-
 public class ContainsValues {
     public static void main(String[] args) {
         HashMap<String,Integer>hm1 = new HashMap<>();

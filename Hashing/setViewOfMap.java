@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class setViewOfMap {
 
-    private static boolean s11;
+    // private static boolean s11;
     public static void main(String[] args) {
         HashMap<String,Integer>hm1 = new HashMap<>();
         hm1.put("india",200);

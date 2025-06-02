@@ -43,7 +43,7 @@ public class NextPermutation {
     }
     
     public static void main(String args[]){
-   int arr[] = {1,2,3};
+   int arr[] = {2,1,4,3};
   // reverse(arr);
   next(arr);
    printArray(arr);
