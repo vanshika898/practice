@@ -8,7 +8,7 @@ public class twoSum {
              if(hm.contains(com)){
                  System.out.println("Pair found: (" + arr[i] + ", " + com + ")");
              }
-             hm.add(com);
+             hm.add(arr[i]);
         }
        
         
