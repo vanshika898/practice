@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Iterator;
 import javax.swing.text.html.HTMLDocument;
 
 public class iterateHashset {
@@ -14,6 +15,12 @@ s1.add(5);
 for(int item : s1){
     System.out.println("items are :"+item);
 }
+
+Iterator<Integer> q = s1.iterator();
+while(q.hasNext()){
+    System.out.println("values are with iterator : "+q.next());
+}
+
 
 s1.forEach(System.out::println);
 s1.stream().forEach(x -> System.out.println(x));
