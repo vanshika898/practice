@@ -8,7 +8,7 @@ public class p3 {
             System.out.print("Enter value :");
             int letter = isr.read();
             while(isr.ready()){
-                System.out.println((char) letter);
+                System.out.print((char) letter);
                 letter = isr.read();
             }
          isr.close();
