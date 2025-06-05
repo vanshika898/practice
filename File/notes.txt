@@ -8,3 +8,7 @@ A
 My name is vanshika
 ------------------------------
 A
+My name is vanshika
+------------------------------
+A
+name is vanshika by buffer

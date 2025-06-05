@@ -27,6 +27,11 @@ try(FileWriter osw = new FileWriter("notes.txt",true)){
      }
 
 
+     try(BufferedWriter br = new BufferedWriter(new FileWriter("notes.txt",true))){
+        br.write("name is vanshika by buffer");
+     }
+
+
     }
 
 
