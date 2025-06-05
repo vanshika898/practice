@@ -16,7 +16,7 @@ public class writeFromFile {
      }
 
 try(FileWriter osw = new FileWriter("notes.txt",true)){
-       osw.write("My name is vanshika");
+       osw.write("शुभ रात्रि / नमस्कार");
        osw.write(System.lineSeparator());
 
        osw.write("------------------------------");
@@ -28,7 +28,7 @@ try(FileWriter osw = new FileWriter("notes.txt",true)){
 
 
      try(BufferedWriter br = new BufferedWriter(new FileWriter("notes.txt",true))){
-        br.write("name is vanshika by buffer");
+        br.write("शुभ रात्रि / नमस्कार buffer");
      }
 
 
