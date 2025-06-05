@@ -2,10 +2,8 @@ public class Thread2  implements Runnable{
     /*
      * Runnable interface is the functional interface because it have 
      * excatly one abstratct method in this interface
-     * 
-     * 
-     * 
-     * 
+     * IMp point to be noted that 
+     * thread class also implement runnable interface
      * 
      * 
      */
@@ -24,6 +22,7 @@ public class Thread2  implements Runnable{
         thread1.start();
         thread2.start();
         System.out.println("exiting.................");
+        new Thread().run();
     }
 }
 
