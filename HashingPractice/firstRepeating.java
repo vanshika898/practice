@@ -23,6 +23,7 @@ public class firstRepeating {
         System.out.println(firstElement(arr));
     }
 }
+
 /*
  * Given an array arr[], find the first repeating element. The element should occur more than once and the index of its first occurrence should be the smallest.
 
