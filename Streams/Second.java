@@ -11,6 +11,10 @@ public class Second{
         Stream<String>stream = list.stream();
         stream.forEach(i->System.out.println(i));
 
+        Set<String> set = new HashSet<>(list);
+        Stream<String> stream1 = set.stream();
+        stream1.forEach(System.out::println);
+
 
    }
 }
