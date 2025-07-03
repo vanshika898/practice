@@ -9,9 +9,9 @@ public class first {
         // stream.forEach(i->System.out.println(i));
         // stream.forEach(i->System.out::println);
 
-        //create through sources
-
         
+
+
 
 
     }
