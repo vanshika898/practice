@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 public class filterExample {
     public static void main(String[] args) {
@@ -9,7 +10,10 @@ public class filterExample {
         }
 
         l.forEach(System.out::println);
-        
+System.out.println("----------------------------------------");
+        // using Stream
+      List<Product> k =   getProducts().stream().filter((product)->product.getPrice()>200).collect(Collectors.toList());
+      k.forEach(System.out::println);
     }      
 
     private static List<Product> getProducts(){
