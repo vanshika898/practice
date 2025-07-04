@@ -29,7 +29,7 @@ System.out.println("----------------------------------------------------");
 
      employee.stream().sorted(Comparator.comparingLong(Employee :: getSalary).reversed()).forEach(System.out::println);
      System.out.println("-------------------------------------------------------------------------------");
-     employee.stream().sorted(Comparator.comparingLong(Employee::getId)).forEach(System.out::println);
+     employee.stream().sorted(Comparator.comparingInt(Employee::getId)).forEach(System.out::println);
         
     }
 }
