@@ -14,6 +14,10 @@ System.out.println("----------------------------------------");
         // using Stream
       List<Product> k =   getProducts().stream().filter((product)->product.getPrice()>200).collect(Collectors.toList());
       k.forEach(System.out::println);
+       System.out.println("---------------------------------------");
+
+      // getProducts().stream.filter((product)->product.getPrice()>200).forEach(System.out::println);
+      
     }      
 
     private static List<Product> getProducts(){
