@@ -14,7 +14,11 @@ public class forEachMethod {
      System.out.println("Price :"+x.getPrice());
      System.out.println("-----------------------------");
      }
+
+     //Using Stream 
      );
+
+     productList.stream().forEach(System.out::println);
     }
 }
 class Product{
