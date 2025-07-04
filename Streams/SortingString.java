@@ -22,6 +22,9 @@ public class SortingString {
        System.out.println("-------------------------------------------------------------");
 
        Fruit.stream().sorted().forEach(System.out::println);
+      System.out.println("---------------------------------------------------------------");
+       //descending order
+       Fruit.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 
 
     }
