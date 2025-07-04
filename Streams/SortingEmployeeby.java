@@ -21,6 +21,15 @@ System.out.println("------------------------------------------------------------
 System.out.println("----------------------------------------------------");
      // by lamda expression
      employee.stream().sorted((o1,o2)->o2.getId()-o1.getId()).forEach(x -> System.out.println(x));
+
+
+
+     System.out.println("----------------------------------------------");
+     //compareLong api
+
+     employee.stream().sorted(Comparator.comparingLong(Employee :: getSalary).reversed()).forEach(System.out::println);
+     System.out.println("-------------------------------------------------------------------------------");
+     employee.stream().sorted(Comparator.comparingLong(Employee::getId)).forEach(System.out::println);
         
     }
 }
