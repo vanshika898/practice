@@ -9,9 +9,9 @@ public class setPrio{
      t1.start();
      t2.start();
      t3.start();
-     t1.setPriority(1);
-     t2.setPriority(3);
-     t3.setPriority(2);
+     t1.setPriority(Thread.MIN_PRIORITY);
+     t2.setPriority(Thread.MAX_PRIORITY);
+     t3.setPriority(Thread.MAX_PRIORITY);
 
 
         
