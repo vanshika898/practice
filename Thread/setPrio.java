@@ -5,13 +5,17 @@ public class setPrio{
      myT t2 = new myT("vanshika");
 
       myT t3 = new myT("neha");
+      t1.setPriority(Thread.MAX_PRIORITY);
+      t2.setPriority(Thread.MIN_PRIORITY);
+      t3.setPriority(Thread.NORM_PRIORITY);
+      t1.start();
+      t2.start();
+      t3.start();
+      
 
-     t1.start();
-     t2.start();
-     t3.start();
-     t1.setPriority(Thread.MIN_PRIORITY);
-     t2.setPriority(Thread.MAX_PRIORITY);
-     t3.setPriority(Thread.MAX_PRIORITY);
+
+    
+     
 
 
         
