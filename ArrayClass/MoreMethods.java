@@ -8,6 +8,7 @@ public class MoreMethods {
           int[] b = {10, 20, 30};
           int k = Arrays.binarySearch(a, 30);
           int l = Arrays.mismatch(a,b);
+          System.out.println(Arrays.equals(a,b));
           System.out.println(l);
           System.out.println(k);
     }
