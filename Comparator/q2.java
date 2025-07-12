@@ -7,7 +7,7 @@ public class q2 {
     public static void main(String args[]){
         String arr[] = {"gfg","ghh","null","neha","sarika"};
         Arrays.sort(arr,Comparator.reverseOrder());
-
+    
         Arrays.stream(arr).forEach((i)->System.out.println(i));
 
 
