@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class implementAtoi {
+public class anagram {
     public static boolean impleemnt(String s ,String k){
     if(s.length()!=k.length()) return false;
        char arr[] = s.toCharArray();
